@@ -9,3 +9,5 @@ while ($uri[$i])
     $i++;
     $p[$i];
 }
+
+$cookie->lang = ((int)$_COOKIE['lang'] ? (int)$_COOKIE['lang'] : 8); // Set default lang id = 8 - Russian
