@@ -22,3 +22,14 @@ function ScreeningText ($text)
    $text = str_replace( "\&quot;" , "&quot;"        , $text );
    return $text;
 }
+
+function FileSaveText ($code, $filename = 'file.txt', $newLine = true, $delete = false)
+{
+   if ($delete == true)
+      unlink($filename);
+   $f = fopen($filename, "a");
+   fwrite($f, $code);
+   if ($newLine == true)
+      fwrite($f, "\n");
+   fclose($f);
+}
