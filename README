@@ -5,3 +5,5 @@ PHP, желательно последних версий. (Проверяю в�
 Библиотека freetype
 Библиотека MySQLi
 mod_rewrite
+
+./configure --prefix=/opt/php5.3 --with-config-file-path=/opt/php5.3 --with-mysqli --with-mysql --with-curl --with-gd --with-freetype-dir --with-jpeg-dir --enable-cli --enable-fastcgi --enable-discard-path --enable-force-cgi-redirect
