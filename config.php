@@ -9,3 +9,5 @@ $check_reg_double_email = false; // Check in registration duble email
 $check_ban_ip_reg = false; // Check ban ip in reg
 $time_zone = ''; // Не скоро будет....
 $use_caching_MySQL = true; // Caching data from MySQL
+$cache_time[0] = '60'; // 60 sec, 0 - data character stat
+$cache_time[1] = '1800'; // 60 sec, 1 - data world stat
