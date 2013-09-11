@@ -36,7 +36,7 @@ function FileSaveText($code, $filename = 'file.txt', $newLine = true, $delete = 
 
 function OpenModule($dm)
 {
-    global $mo, $md;
+    global $mo, $md, $um;
     if (file_exists("$dm/$mo") && file_exists("$dm/$md"))
     {
         include ("$dm/$mo");
@@ -44,4 +44,5 @@ function OpenModule($dm)
     }
     else if (file_exists("modules/m_e_module/$mo"))
         include ("modules/m_e_module/$mo");
+    $um = true;
 }
