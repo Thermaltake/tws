@@ -1,5 +1,4 @@
 html, body {
-    /*overflow:hidden;*/
     color: #ffffff;
     font-size: 14px;
     width: 100%;
@@ -10,7 +9,6 @@ html, body {
     margin-top: 0px;
     margin-bottom: 0px;
     word-wrap: break-word;
-    /*background:#000 url(http://media.blizzard.com/wow/media/fanart/fanart-1269-full.jpg) no-repeat fixed 50% 0;*/
     text-shadow: 0 0 10px #ffffff;
     margin: 0 auto;
 
