@@ -6,7 +6,7 @@ class Cookie {
    var $lang = 0; }
 
 
-function ScreeningText ($text)
+function ScreeningText($text)
 {
    $text = str_replace( "&"				, "&amp;"         , $text );
    $text = str_replace( ">"				, "&gt;"          , $text );
@@ -23,7 +23,7 @@ function ScreeningText ($text)
    return $text;
 }
 
-function FileSaveText ($code, $filename = 'file.txt', $newLine = true, $delete = false)
+function FileSaveText($code, $filename = 'file.txt', $newLine = true, $delete = false)
 {
    if ($delete == true)
       unlink($filename);
@@ -32,4 +32,14 @@ function FileSaveText ($code, $filename = 'file.txt', $newLine = true, $delete =
    if ($newLine == true)
       fwrite($f, "\n");
    fclose($f);
+}
+
+function OpenModule($dm)
+{
+    global $mo, $md;
+    if (file_exists("$dm/$mo") && file_exists("$dm/$md"))
+    {
+        include ("$dm/$mo");
+        include ("$dm/$md");
+    }
 }

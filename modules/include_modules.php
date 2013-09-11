@@ -8,16 +8,16 @@ if ($p[1])
 {
     switch ($p[1])
     {
-        case "home": include ("modules/m_home/$mo"); break; // Home page
-        case "stat": include ("modules/m_stat/$mo"); break; // stat page
-        case "reg": include ("modules/m_reg/$mo"); break; // registration page
-        case "ch_info": include ("modules/m_ch_info/$mo"); break; // Characters info page
-        case "t_info": include ("modules/m_t_info/$mo"); break; // Arena team info page
-        case "g_info": include ("modules/m_g_info/$mo"); break; // guild info page
-        default: include ("modules/m_404/404.php"); // Home page
+        case "home": OpenModule ("modules/m_home"); break; // Home page
+        case "stat": OpenModule ("modules/m_stat"); break; // stat page
+        case "reg": OpenModule ("modules/m_reg"); break; // registration page
+        case "ch_info": OpenModule ("modules/m_ch_info"); break; // Characters info page
+        case "t_info": OpenModule ("modules/m_t_info"); break; // Arena team info page
+        case "g_info": OpenModule ("modules/m_g_info"); break; // guild info page
+        default: OpenModule ("modules/m_404"); // Home page
     }
 }
 else
-    include ("modules/m_home/home.php");
+    OpenModule ("modules/m_home");
 
 /* Это будет для модулей, которые не были ни где добавлены. Будет идти поиск папки с модулем. */
