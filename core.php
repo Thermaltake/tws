@@ -42,4 +42,6 @@ function OpenModule($dm)
         include ("$dm/$mo");
         include ("$dm/$md");
     }
+    else if (file_exists("modules/m_e_modul/$mo"))
+        include ("modules/m_e_modul/$mo");
 }
