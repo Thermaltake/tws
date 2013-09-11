@@ -37,12 +37,12 @@ function FileSaveText($code, $filename = 'file.txt', $newLine = true, $delete = 
 function OpenModule($dm)
 {
     global $mo, $md, $um;
-    if (file_exists("$dm/$mo") && file_exists("$dm/$md"))
+    if (file_exists("modules/$dm/$mo") && file_exists("modules/$dm/$md"))
     {
-        include ("$dm/$mo");
-        include ("$dm/$md");
+        include ("modules/$dm/$mo");
+        include ("modules/$dm/$md");
     }
-    else if (file_exists("modules/m_e_module/$mo"))
-        include ("modules/m_e_module/$mo");
+    else if (file_exists("modules/404/$mo"))
+        include ("modules/404/$mo");
     $um = true;
 }
