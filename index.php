@@ -3,6 +3,7 @@
 /* Кодировка */
 
 include ("core.php");
+include ("cache_clean.php");
 include ("start_classes.php");
 include ("read_cookie.php");
 include ("mysqli.php");
