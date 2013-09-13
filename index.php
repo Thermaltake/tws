@@ -2,6 +2,7 @@
 
 /* Кодировка */
 
+include ("config.php");
 include ("core.php");
 include ("cache_clean.php");
 include ("start_classes.php");
