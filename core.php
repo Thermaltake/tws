@@ -5,6 +5,10 @@
 class Cookie {
    var $lang = 0; }
 
+class IData {
+   var $url = 0;
+   var $dir = 0; }
+
 
 function ScreeningText($text)
 {
