@@ -1,0 +1,233 @@
+html, body {
+    color: #ffffff;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    word-wrap: break-word;
+    text-shadow: 0 0 10px #ffffff;
+    margin: 0 auto;
+
+    background: #000 url(http://nevseoboi.com.ua/uploads/posts/2012-05/1338449863-957230-0102598_www.nevseoboi.com.ua.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+
+A:link {
+    color:#ff9004;
+    font-size:14px;
+    text-decoration: none; }
+
+A:active {
+    color:#ff0033;
+    font-size:14px;
+    text-decoration: none; }
+
+A:visited {
+    color:#e28b00;
+    font-size:14px;
+    text-decoration: none; }
+
+A:hover {
+    color:#00ff00;
+    font-size:14px;
+    text-decoration: none; }
+
+.firstClass {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto; }
+    
+.ServerName {
+    font-size: 85px;
+    font-style: italic;
+    text-shadow: 0 0 10px #ff0000;}
+
+.CenterBlock {
+    width: 70%;
+    height: 70%;
+    min-width: 896px;
+    min-height: 700px;
+    background-color: rgba(157, 177, 204, 0.5);
+    margin: 0 auto; }
+
+.NavigationBlock {
+    width: 100%;
+    height: 5%;
+    background-color: rgba(0, 0, 0, 0.5); }
+
+.buttonNav {
+    width: 24%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline-block; }
+
+.BlockCenterLeft {
+    vertical-align: top;
+    height: 95%;
+    width: 19%;
+    overflow: auto;
+    display: inline-block; }
+
+.BlockCenterCenter {
+    vertical-align: top;
+    height: 95%;
+    width: 59%;
+    overflow: auto;
+    display: inline-block; }
+
+.BlockCenterRight {
+    vertical-align: top;
+    height: 95%;
+    width: 19%;
+    overflow: auto;
+    display: inline-block; }
+
+.RealmInfo {
+    width: 100%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.7); }
+
+.JoinServer {
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.7); }
+
+.RealmName {
+    font-size: 20px; }
+
+.StyleBorder {
+    -moz-border-radius:8px;
+    -khtml-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;}
+
+.buttonNavLeft {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.7); }
+
+.OnlineTeam {
+    margin-right: 5px;
+    height: 7px;
+    margin-left: 5px;
+    display: block; }
+
+.OnlineLeft {
+    float: left;
+    display: inline; }
+
+.OnlineRight {
+    float: right;
+    display: inline; }
+
+.Version {
+    margin-right: 5px;
+    height: 7px;
+    margin-left: 5px;
+    display: block; }
+
+.VersionLeft {
+    float: left;
+    display: inline; }
+
+.VersionRight {
+    float: right;
+    display: inline; }
+
+.FullOnline {
+    margin-right: 5px;
+    height: 7px;
+    margin-left: 5px;
+    display: block; }
+
+.FullOnlineLeft {
+    float: left;
+    display: inline; }
+
+.FullOnlineRight {
+    float: right;
+    display: inline; }
+
+.Alliance {
+   color: #0000ff;
+   display: inline; }
+
+.Horde {
+    color: #ff0000;
+    display: inline; }
+
+.uptime {
+    margin-right: 5px;
+    height: 7px;
+    margin-left: 5px;
+    display: block; }
+
+.uptimeLeft {
+    float: left;
+    display: inline; }
+
+.uptimeRight {
+    float: right;
+    display: inline; }
+
+.APNext {
+    margin-right: 5px;
+    height: 7px;
+    margin-left: 5px;
+    display: block; }
+
+.APNextLeft {
+    float: left;
+    display: inline; }
+
+.APNextRight {
+    float: right;
+    display: inline; }
+
+.Status {
+    margin-right: 5px;
+    height: 7px;
+    margin-left: 5px;
+    display: block; }
+
+.StatusLeft {
+    float: left;
+    display: inline; }
+
+.StatusRight {
+    float: right;
+    display: inline; }
+
+.BlockRealmList {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 35px; }
+
+.RealmNameUrl {
+    color: #ff0000; }
+
+.Modules {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 80%; }
+
+.ModulesTitle {
+    font-size: 35px; }
+
+.ModulesText {
+    height: 90%;
+    overflow: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;}
+
+.BlockUrl {
+    height: 100%;
+    display:block; }
