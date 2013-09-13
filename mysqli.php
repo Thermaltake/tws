@@ -9,6 +9,9 @@ class sql extends mysqli {
     }
 }
 
+$con['accounts'] = new sql($connections['accounts']['ip'], $connections['accounts']['user'], $connections['accounts']['pass'], $connections['accounts']['db']);
+$con['site'] = new sql($connections['site']['ip'], $connections['site']['user'], $connections['site']['pass'], $connections['site']['db']);
+$con['world'] = new sql($connections['world']['ip'], $connections['world']['user'], $connections['world']['pass'], $connections['world']['db']);
 
 while ($connections[$i->realms])
 {

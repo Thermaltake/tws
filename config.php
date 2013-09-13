@@ -17,21 +17,21 @@ $connections = array (
     "accounts" => array ( // IF id == accounts { realmd }
         "ip"   => "localhost", // IP
         "user" => "root", // Database username
-        "pass" => "root", // Database password
+        "pass" => "", // Database password
         "db"   => "realmd", // Database name realmd
         ),
 
     "site" => array ( // IF id == site { site }
         "ip"   => "localhost", // IP
         "user" => "root", // Database username
-        "pass" => "root", // Database password
+        "pass" => "", // Database password
         "db"   => "site", // Database name site
         ),
 
     "world" => array ( // IF id == site { site }
         "ip"   => "localhost", // IP
         "user" => "root", // Database username
-        "pass" => "root", // Database password
+        "pass" => "", // Database password
         "db"   => "mangos", // Database name world
         ),
 
@@ -39,16 +39,16 @@ $connections = array (
     "0" => array ( // id realm
         "ip"   => "localhost", // IP
         "user" => "root", // Database username
-        "pass" => "root", // Database password
+        "pass" => "", // Database password
         "db"   => "characters_1", // Database realmd
         "gp"   => "8085", // Game Port
         "rn"   => "WoW x1" // Realm name
         ),
 
-    "1" => array ( // id realm
+    /*"1" => array ( // id realm
         "ip"   => "localhost", // IP
         "user" => "root", // Database username
-        "pass" => "root", // Database password
+        "pass" => "", // Database password
         "db"   => "characters_2", // Database realmd
         "gp"   => "8086", // Game Port
         "rn"   => "WoW x2" // Realm name
@@ -57,9 +57,9 @@ $connections = array (
     "2" => array ( // id realm
         "ip"   => "localhost", // IP
         "user" => "root", // Database username
-        "pass" => "root", // Database password
+        "pass" => "", // Database password
         "db"   => "characters_3", // Database realmd
         "gp"   => "8087", // Game Port
         "rn"   => "WoW x3" // Realm name
-        ),
+        ),*/
 );
