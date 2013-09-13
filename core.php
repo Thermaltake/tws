@@ -7,7 +7,8 @@ class Cookie {
 
 class IData {
    var $url = 0;
-   var $dir = 0; }
+   var $dir = 0;
+   var $realms = 0; }
 
 
 function ScreeningText($text)
