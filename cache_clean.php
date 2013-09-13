@@ -1,6 +1,6 @@
 <?
 
-/* Кодировка */
+/* РљРѕРґРёСЂРѕРІРєР° */
 
 $dir[0] = "cache_param/caracters";
 $dir[1] = "cache_param/world";
