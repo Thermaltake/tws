@@ -11,6 +11,8 @@ class IData {
    var $realms = 0; }
 
 
+class cache {}
+
 function ScreeningText($text)
 {
    $text = str_replace( "&"				, "&amp;"         , $text );
