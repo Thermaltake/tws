@@ -1,9 +1,9 @@
 <?
 
 /* Кодировка UTF8 / Encoding UTF8 */
-$mo = 'mo.php'; // Module Open
-$md = 'md.php'; // Module display (html code)
-$um = false; // Не менять!
+$co = 'co.php'; // Module Open
+$cd = 'cd.php'; // Module display (html code)
+$uc = false; // Не менять!
 
 $uri = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
 while ($uri[$i->url])

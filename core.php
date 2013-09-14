@@ -41,15 +41,15 @@ function FileSaveText($code, $filename = 'file.txt', $newLine = true, $delete = 
    fclose($f);
 }
 
-function OpenModule($dm)
+function OpenComponent($dc)
 {
-    global $mo, $md, $um;
-    if (file_exists("modules/$dm/$mo") && file_exists("modules/$dm/$md"))
+    global $co, $cd, $uc;
+    if (file_exists("components/$dc/$co") && file_exists("components/$dc/$cd"))
     {
-        include ("modules/$dm/$mo");
-        include ("modules/$dm/$md");
+        include ("components/$dc/$co");
+        include ("components/$dc/$cd");
     }
-    else if (file_exists("modules/404/$mo"))
-        include ("modules/404/$mo");
-    $um = true;
+    else if (file_exists("components/404/$co"))
+        include ("components/404/$co");
+    $uc = true;
 }
