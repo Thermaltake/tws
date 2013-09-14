@@ -51,5 +51,6 @@ function OpenComponent($dc)
     }
     else if (file_exists("components/404/$co"))
         include ("components/404/$co");
+
     $uc = true;
 }
