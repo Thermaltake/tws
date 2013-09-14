@@ -11,6 +11,4 @@ class sql extends mysqli {
 
 
 foreach ($connections as $key => $value)
-    $con[$key] = new sql($connections[$key]['ip'], $connections[$key]['user'], $connections[$key]['pass'], $connections[$key]['db']);
-
-/* С функциямии mysqli еще не работал в php.. Будем учиться ;) */
+    $db[$key] = new sql($connections[$key]['ip'], $connections[$key]['user'], $connections[$key]['pass'], $connections[$key]['db']);
