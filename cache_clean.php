@@ -5,14 +5,13 @@
 $dir[0] = "cache_param/caracters";
 $dir[1] = "cache_param/world";
 
-while ($dir[$i->dir])
+foreach ($dir as $key => $value)
 {
-    if (is_dir($dir[$i->dir]))
-        if ($dh = opendir($dir[$i->dir])) {
+    if (is_dir($value))
+        if ($dh = opendir($value)) {
            while (($file = readdir($dh)) !== false)
-               if (filectime($dir[$i->dir].$file) < time()-$cache_time[$i->dir] && filetype($dir[$i->dir] . $file) == 'file')
-                   unlink ($dir[$i->dir].$file);
+               if (filectime($value.$file) < time()-$cache_time[$key] && filetype($value.$file) == 'file')
+                   unlink ($value.$file);
 
            closedir($dh); }
-    $i->dir++;
 }
