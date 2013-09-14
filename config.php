@@ -15,21 +15,21 @@ $cache_time[1] = '1800'; // in sec, 1 - data world stat
 $connections = array (
 
     "accounts" => array ( // IF id == accounts { realmd }
-        "ip"   => "localhost", // IP
+        "ip"   => "127.0.0.1", // IP
         "user" => "root", // Database username
         "pass" => "", // Database password
         "db"   => "realmd", // Database name realmd
         ),
 
     "site" => array ( // IF id == site { site }
-        "ip"   => "localhost", // IP
+        "ip"   => "127.0.0.1", // IP
         "user" => "root", // Database username
         "pass" => "", // Database password
         "db"   => "site", // Database name site
         ),
 
     "world" => array ( // IF id == site { site }
-        "ip"   => "localhost", // IP
+        "ip"   => "127.0.0.1", // IP
         "user" => "root", // Database username
         "pass" => "", // Database password
         "db"   => "mangos", // Database name world
@@ -37,7 +37,7 @@ $connections = array (
 
     /* Configuration realms */
     "0" => array ( // id realm
-        "ip"   => "localhost", // IP
+        "ip"   => "127.0.0.1", // IP
         "user" => "root", // Database username
         "pass" => "", // Database password
         "db"   => "characters_1", // Database realmd
@@ -46,7 +46,7 @@ $connections = array (
         ),
 
     /*"1" => array ( // id realm
-        "ip"   => "localhost", // IP
+        "ip"   => "127.0.0.1", // IP
         "user" => "root", // Database username
         "pass" => "", // Database password
         "db"   => "characters_2", // Database realmd
@@ -55,7 +55,7 @@ $connections = array (
         ),
 
     "2" => array ( // id realm
-        "ip"   => "localhost", // IP
+        "ip"   => "127.0.0.1", // IP
         "user" => "root", // Database username
         "pass" => "", // Database password
         "db"   => "characters_3", // Database realmd
