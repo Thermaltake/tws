@@ -4,6 +4,8 @@
 $co = 'co.php'; // Component Open
 $cd = 'cd.php'; // Component display (html code)
 $uc = false; // Не менять!
+$add_data = 'additional_data/';
+
 
 $uri = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
 while ($uri[$i->url])
