@@ -8,7 +8,8 @@ class Cookie {
 class IData {
    var $url = 0;
    var $dir = 0;
-   var $realms = 0; }
+   var $realms = 0;
+   var $fthemes = 0; }
 
 
 class cache {}
@@ -55,4 +56,11 @@ function OpenComponent($dc)
         include (DIR_COMPONENTS."404/".FILE_CO);
 
     $uc = true;
+}
+
+function IncludeFilesFromArrayASC ($array)
+{
+    asort ($array);
+    foreach ($array as $key)
+        include ($key);
 }
