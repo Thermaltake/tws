@@ -9,3 +9,4 @@ if (is_dir(DIR_ADDITIONAL_DATA))
                include (DIR_ADDITIONAL_DATA.$file);
 
        closedir($dh); }
+unset ($file);

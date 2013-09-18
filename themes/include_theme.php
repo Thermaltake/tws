@@ -29,3 +29,6 @@ else if (is_dir(DIR_THEME."default")) {
     }
     closedir($dh);
 }
+
+unset ($array);
+unset ($file);

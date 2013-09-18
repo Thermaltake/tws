@@ -13,3 +13,5 @@ foreach ($cache->dir as $key => $value)
 
            closedir($dh); }
 }
+
+unset ($file);

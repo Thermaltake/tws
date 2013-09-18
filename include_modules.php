@@ -9,3 +9,5 @@ if (is_dir(DIR_MODULES))
                include (DIR_MODULES.$file);
 
        closedir($dh); }
+
+unset ($file);
