@@ -5,10 +5,10 @@ $start_array = explode(" ",microtime());
 $st = $start_array[1] + $start_array[0];
 
 
-include ("config.php");
 include ("core.php");
-include ("cache_clean.php");
 include ("start_classes.php");
+include ("config.php");
+include ("cache_clean.php");
 include ("read_cookie.php");
 include ("lang.php");
 include ("params.php");
