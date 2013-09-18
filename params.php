@@ -5,6 +5,10 @@ $co = 'co.php'; // Component Open
 $cd = 'cd.php'; // Component display (html code)
 $uc = false; // Не менять!
 define ("DIR_ADDITIONAL_DATA", "additional_data/");
+define ("DIR_COMPONENTS",      "components/");
+
+define ("FILE_CO", "co.php");
+define ("FILE_CD", "cd.php");
 
 
 $uri = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
