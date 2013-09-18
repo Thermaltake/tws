@@ -16,6 +16,7 @@ include ("additional_data.php");
 include ("mysqli.php");
 include ("include_modules.php");
 include ("components/include_components.php");
+include ("themes/include_theme.php");
 
 
 $start_array = explode(" ",microtime());
