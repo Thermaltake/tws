@@ -20,4 +20,7 @@ include ("themes/include_theme.php");
 
 
 $start_array = explode(" ",microtime());
-echo "<!-- ".(($start_array[1] + $start_array[0])-$st)." -->";
+echo "<!--
+".(($start_array[1] + $start_array[0])-$st)."
+".memory_get_peak_usage()."
+-->";
