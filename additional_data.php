@@ -2,10 +2,10 @@
 
 /* Кодировка */
 
-if (is_dir($add_data))
-    if ($dh = opendir($add_data)) {
+if (is_dir(DIR_ADDITIONAL_DATA))
+    if ($dh = opendir(DIR_ADDITIONAL_DATA)) {
        while (($file = readdir($dh)) !== false)
-           if (filetype($add_data.$file) == 'file')
-               include ($value.$file);
+           if (filetype(DIR_ADDITIONAL_DATA.$file) == 'file')
+               include (DIR_ADDITIONAL_DATA.$file);
 
        closedir($dh); }

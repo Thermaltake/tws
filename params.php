@@ -4,7 +4,7 @@
 $co = 'co.php'; // Component Open
 $cd = 'cd.php'; // Component display (html code)
 $uc = false; // Не менять!
-$add_data = 'additional_data/';
+define ("DIR_ADDITIONAL_DATA", "additional_data/");
 
 
 $uri = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
