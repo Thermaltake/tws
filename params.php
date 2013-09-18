@@ -6,6 +6,7 @@ $cd = 'cd.php'; // Component display (html code)
 $uc = false; // Не менять!
 define ("DIR_ADDITIONAL_DATA", "additional_data/");
 define ("DIR_COMPONENTS",      "components/");
+define ("DIR_MODULES",         "modules/");
 
 define ("FILE_CO", "co.php");
 define ("FILE_CD", "cd.php");
