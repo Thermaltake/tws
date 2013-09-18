@@ -18,24 +18,10 @@ $cache->time[0] = '60'; // in sec, 0 - data character stat
 $cache->time[1] = '1800'; // in sec, 1 - data world stat
 
 $connections = array (
-    "accounts" => array ( // IF id == accounts { realmd }
-        "ip"   => "127.0.0.1", // IP
-        "user" => "root", // Database username
-        "pass" => "", // Database password
-        "db"   => "realmd", // Database name realmd
-        ),
-
     "site" => array ( // IF id == site { site }
         "ip"   => "127.0.0.1", // IP
         "user" => "root", // Database username
         "pass" => "", // Database password
         "db"   => "site", // Database name site
-        ),
-
-    "world" => array ( // IF id == site { site }
-        "ip"   => "127.0.0.1", // IP
-        "user" => "root", // Database username
-        "pass" => "", // Database password
-        "db"   => "mangos", // Database name world
         ),
 );
