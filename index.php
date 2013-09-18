@@ -1,6 +1,9 @@
 <?
 
 /* Кодировка */
+$start_array = explode(" ",microtime());
+$st = $start_array[1] + $start_array[0];
+
 
 include ("config.php");
 include ("core.php");
@@ -13,3 +16,7 @@ include ("additional_data.php");
 include ("mysqli.php");
 include ("include_modules.php");
 include ("components/include_components.php");
+
+
+$start_array = explode(" ",microtime());
+echo "<!-- ".(($start_array[1] + $start_array[0])-$st)." -->";
