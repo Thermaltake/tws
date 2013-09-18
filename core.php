@@ -44,10 +44,12 @@ function FileSaveText($code, $filename = 'file.txt', $newLine = true, $delete = 
 function OpenComponent($dc)
 {
     global $uc;
-    if (file_exists(DIR_COMPONENTS.$dc."/".FILE_CO) && file_exists(DIR_COMPONENTS.$dc."/".FILE_CD))
+    if (file_exists(DIR_COMPONENTS.$dc."/".FILE_CO))
     {
         include (DIR_COMPONENTS.$dc."/".FILE_CO);
-        include (DIR_COMPONENTS.$dc."/".FILE_CD);
+
+        if (file_exists(DIR_COMPONENTS.$dc."/".FILE_CD))
+            include (DIR_COMPONENTS.$dc."/".FILE_CD);
     }
     else if (file_exists(DIR_COMPONENTS."404/".FILE_CO))
         include (DIR_COMPONENTS."404/".FILE_CO);
